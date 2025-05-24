@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Feliz Aniversario</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="intro" id="intro">
-    <h1>Feliz Aniversario Amor ❤</h1>
-    <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Gatitos" />
-  </div>
+  <div class="container">
+    <div id="intro" class="intro">
+      <h1>Feliz Aniversario Amor!</h1>
+      <img src="imagenprincipal.jpg" alt="Imagen principal">
+    </div>
 
-  <div class="cards-container hidden" id="cards-container">
-    <div class="card" onclick="flipCard(this)">
-      <div class="card-inner">
-        <div class="card-front">❓</div>
-        <div class="card-back">
-          <img src="imagen1.jpg" alt="Imagen 1" />
-          <p>7CWJH-YDMPD-RJMYK-XHGJ9-34QCZ</p>
+    <div id="cards-container" class="cards-container hidden">
+      <div class="card" onclick="flipCard(this, 0)">
+        <div class="card-inner">
+          <div class="card-front">?</div>
+          <div class="card-back">
+            <img src="imagen1.jpg" alt="Sorpresa 1">
+            <p>7CWJH-YDMPD-RJMYK-XHGJ9-34QCZ</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="card" onclick="flipCard(this)">
-      <div class="card-inner">
-        <div class="card-front">❓</div>
-        <div class="card-back">
-          <img src="imagen2.jpg" alt="Imagen 2" />
-          <p>6CYK3-64MV4-XP336-7PJD3-7JDWZ</p>
+      <div class="card" onclick="flipCard(this, 1)">
+        <div class="card-inner">
+          <div class="card-front">?</div>
+          <div class="card-back">
+            <img src="imagen2.jpg" alt="Sorpresa 2">
+            <p>6CYK3-64MV4-XP336-7PJD3-7JDWZ</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="card" onclick="flipCard(this)">
-      <div class="card-inner">
-        <div class="card-front">❓</div>
-        <div class="card-back">
-          <img src="imagen3.jpg" alt="Imagen 3" />
-          <p>YXH9K-YKHTW-KM2GQ-3HH7Y-DDWYZ</p>
+      <div class="card" onclick="flipCard(this, 2)">
+        <div class="card-inner">
+          <div class="card-front">?</div>
+          <div class="card-back">
+            <img src="imagen3.jpg" alt="Sorpresa 3">
+            <p>YXH9K-YKHTW-KM2GQ-3HH7Y-DDWYZ</p>
+          </div>
         </div>
       </div>
     </div>
